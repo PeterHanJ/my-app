@@ -29,5 +29,5 @@ vue add router
 
 ## Axios
 ```
-npm install --save axios vue-axios
+npm install axios --save
 ```

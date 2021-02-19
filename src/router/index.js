@@ -22,6 +22,12 @@ const routes = [
     path: '/hello',
     name: 'Hello',
     component: () => import('../components/HelloWorld.vue')
+  },
+  {
+    path: '/movie/:id',
+    name: 'Movie',
+    props: true,
+    component: () => import('../components/Movie.vue')
   }
 ]
 
